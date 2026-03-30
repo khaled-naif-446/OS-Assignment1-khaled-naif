@@ -1,121 +1,49 @@
 # Development Log
 
-## Instructions
-Document your development process as you work on the assignment. Add entries showing:
-- What you worked on
-- Problems you encountered
-- How you solved them
-- Time spent
-
-**Requirements**: Minimum 5 entries showing progression over time.
-
----
-
-## Example Entry Format:
-
-### Entry 1 - [April 1, 2026, 2:30 PM]
-**What I did**: Forked the repository and set up my student ID
-
-**Details**: 
-- Created GitHub account with university email
-- Forked the starter repository
-- Changed student ID on line 92 to my actual ID (441234567)
-- Compiled and ran the program successfully
-
-**Challenges**: Had to install JDK first because javac wasn't recognized
-
-**Solution**: Downloaded JDK 17 from Oracle website and set PATH variable
-
-**Time spent**: 30 minutes
+## Entry 1
+**Date:** March 26, 2026  
+**Time:** 7:15 PM  
+**Task:** Setup GitHub repository and fork the starter project  
+**Challenges:** Understanding how to properly fork and rename the repository  
+**Solution:** Followed the instructions in README and verified repository settings  
+**Time Spent:** 1 hour  
 
 ---
 
-## Your Development Log:
-
-### Entry 1 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+## Entry 2
+**Date:** March 27, 2026  
+**Time:** 6:40 PM  
+**Task:** Implement Feature 1 (Process Priority)  
+**Challenges:** Adding priority to the Process class and displaying it correctly  
+**Solution:** Added a priority field (1–5) and modified the constructor and output message  
+**Time Spent:** 1.5 hours  
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+## Entry 3
+**Date:** March 28, 2026  
+**Time:** 8:10 PM  
+**Task:** Implement Feature 2 (Context Switch Counter)  
+**Challenges:** Determining where to increment the counter during execution  
+**Solution:** Incremented the counter each time a new thread starts in the scheduler loop  
+**Time Spent:** 1 hour  
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+## Entry 4
+**Date:** March 29, 2026  
+**Time:** 5:50 PM  
+**Task:** Implement Feature 3 (Waiting Time Tracking)  
+**Challenges:** Calculating waiting time accurately while processes move in and out of the queue  
+**Solution:** Used System.currentTimeMillis() and added helper methods to track waiting time  
+**Time Spent:** 2 hours  
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
-
----
-
-### Entry 5 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
-
----
-
-### Entry 6 - [Optional - Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
-
----
-
-## Summary
-
-**Total time spent on assignment**: [X hours]
-
-**Most challenging part**: 
-
-**Most interesting learning**: 
-
-**What I would do differently next time**: 
+## Entry 5
+**Date:** March 30, 2026  
+**Time:** 9:00 PM  
+**Task:** Testing, debugging, and final adjustments  
+**Challenges:** Ensuring all features work correctly together without affecting existing functionality  
+**Solution:** Ran multiple tests and fixed minor issues in timing and output formatting  
+**Time Spent:** 1 hour  
